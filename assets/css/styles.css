@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #2E80CE;
+}
+
+html {
+    font-family: 'Sora', sans-serif;
+    font-size: 62.5%;
+}
+
+/* ========= Common ========= */
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 20px;
+    min-width: 65px;
+    border-radius: 22px;
+    background-color: var(--primary-color);
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* ================= Header =============== */
+
+.header {
+    padding: 30px 0;
+    background-color: #10375C;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .navbar__list {
+    display: flex;
+    align-items: center;
+}
+
+.header-top .navbar__item {
+    margin-left: 42px;
+}
+
+.header-top .navbar__link,
+.header-top .action__link  {
+    color: #C9D2DA;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.header-top .navbar__link:hover {
+    color: #fff;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header-top .navbar__link--active {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.header-top .navbar__link--active::before {
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.header-action__signup {
+    margin-left: 28px;
+    border: none;
+}
