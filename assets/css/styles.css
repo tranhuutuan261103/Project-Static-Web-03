@@ -764,6 +764,10 @@ a {
     margin-bottom: 20px;
 }
 
+.footer__item a:hover {
+    text-decoration: underline;
+}
+
 .footer__socials {
     display: flex;
     gap: 10px;
