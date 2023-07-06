@@ -657,3 +657,50 @@ a {
 .news__list .news-item .news-item__content .news-item__link-learn-more:hover {
     color: var(--primary-color);
 }
+
+/* ============== Appointment ================ */
+
+.appointment {
+    margin-bottom: 170px;
+}
+
+.appointment__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F6FBFF;
+}
+
+.appointment__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--second-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.appointment__heading::after {
+    margin-top: 18px;
+    content: "";
+    display: inline-block;
+    width: 136px;
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.appointment__desc {
+    margin-top: 18px;
+    margin-bottom: 38px;
+    max-width: 617px;
+    color: #575F66;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
