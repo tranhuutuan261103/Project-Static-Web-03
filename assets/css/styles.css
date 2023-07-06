@@ -498,3 +498,57 @@ a {
 .member__control .control-btn:hover path {
     stroke: #FFF;
 }
+
+/* ============== Install =============== */
+
+.install {
+    margin-bottom: 170px;
+}
+
+.install__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 70px;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+}
+
+.install__image {
+    position: relative;
+    margin-top: auto;
+    min-width: 284px;
+    margin-right: 70px;
+}
+
+.install__image img {
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+}
+
+.install__content {
+    max-width: 596px;
+}
+
+.install__content .install__heading {
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.install__content .install__desc {
+    margin-top: 18px;
+    margin-bottom: 38px;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.666666666667;
+}
+
+.install__content .install__action {
+    display: flex;
+    gap: 28px;
+}
